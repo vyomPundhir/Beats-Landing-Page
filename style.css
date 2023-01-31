@@ -113,3 +113,30 @@
   background: transparent;
   color: white;
 }
+/* company section */
+.company{
+  margin-top: 92px;
+  display: flex;
+  flex-direction: row;
+}
+.apple img{
+  padding-top: 4px;
+  width: 72.5px;
+  margin-left: 296px;
+}
+.spotify img{
+  padding-top: 6px;
+  margin-left: 103px;
+  width: 72.5px;
+}
+.amazon img{
+  padding-top: 6px;
+  margin-left: 102.5px;
+  width: 72px;
+}
+.yt img{
+  padding-top: 9px;
+  margin-left: 102.5px;
+  width: 72.5px;
+}
+
