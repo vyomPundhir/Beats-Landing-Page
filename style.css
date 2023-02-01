@@ -305,3 +305,73 @@
   color: white;
   background: transparent;
 }
+/* buy now section */
+.buynow-bg{
+  display: flex;
+  flex-direction: column;
+  padding-top: 33.5px;
+  height: 300px;
+}
+.buynow{
+  margin-left: 244px;
+  border-radius: 10px;
+  width: 58.5%;
+  height: 245px;
+  background-color: #16181a;
+  display: flex;
+  flex-direction: row;
+}
+.buynow-left{
+  width: 50%;
+  margin-left: 105px;
+  margin-top: 56px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.buynow-head{
+  margin-top: 1px;
+  line-height: 26px;
+  width: 175px;
+  color: white;
+  font-size: 17.5px;
+  font-weight: 500;
+  background: transparent;
+}
+.buynow-des{
+  margin-top: 12px;
+  font-size: 11.5px;
+  color: rgb(185, 185, 185);
+  background: transparent;
+}
+.buynow-btn{
+  width: 113px;
+  height: 40px;
+  margin-top: 11px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  background: black;
+}
+.buynow-btn img{
+  width: 14.5px;
+  background: transparent;
+}
+.buynow-text{
+  font-size: 11px;
+  color: white;
+  background-color: transparent;
+}
+.buynow-right{
+  background: transparent;
+}
+.buynow-right img{
+  margin-top: 35px;
+  margin-left: -115px;
+  background: transparent;
+  width: 254px;
+}
