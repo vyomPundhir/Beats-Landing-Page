@@ -380,6 +380,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 550px;
 }
 .choose-head img{
   width: 257px;
@@ -409,7 +410,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #16181a;
-  width: 116px;
+  width: 117px;
   height: 110px;
   border-radius: 5px;
   margin-top: 81px;
@@ -426,11 +427,34 @@
   background: transparent;
   display: flex;
   flex-direction: row;
+  gap: 43px;
+  margin-left: 45px;
+}
+.choose-three .choose-2 .choose-bot{
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-left: 45px;
+}
+.choose-three .choose-3 .choose-bot{
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin-left: 45px;
+}
+.choose-two .choose-2 .choose-bot{
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  margin-left: 45px;
 }
 .choose-left{
   margin-top: 4px;
   background: transparent;
-  margin-left: -42.5px;
+  margin-left: -40px;
 }
 
 .choose-color{
@@ -447,13 +471,14 @@
   font-weight: 600;
 }
 .choose-right{
-  width: 23px;
+  width: 25px;
   border-radius: 4px;
   height: 24px;
+  margin-top: 17px;
 }
 .choose-right img{
   width: 11.5px;
-  margin-left: 5.5px;
+  margin-left: 6px;
 }
 
 
